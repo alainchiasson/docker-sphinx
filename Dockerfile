@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y -q python-sphinx texlive texlive-latex-
 RUN apt-get install -y -q python-pip python-dev
 
 RUN pip install rst2pdf
+RUN pip install sphinx_rtd_theme
 
 RUN mkdir documents
 

@@ -16,5 +16,3 @@ RUN mkdir documents
 
 WORKDIR /documents
 VOLUME /documents
-
-CMD ["/bin/bash"]

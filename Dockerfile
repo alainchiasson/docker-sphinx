@@ -21,7 +21,8 @@ RUN pip3 install \
     sphinx \
     sphinx_rtd_theme\
     pylint\
-    sphinxcontrib-plantuml
+    sphinxcontrib-plantuml \
+    recommonmark
 
 RUN mkdir /documents
 
